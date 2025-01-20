@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 
-dataset = pd.read_csv(r'/Users/bannusagi/Downloads/Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
+dataset = pd.read_csv(r'Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
 
 import re
 import nltk
