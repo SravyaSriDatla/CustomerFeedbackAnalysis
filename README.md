@@ -1,1 +1,3 @@
 # CustomerFeedbackAnalysis
+
+This project focuses on developing a sentiment analysis system for restaurant reviews using NLP and machine learning. The dataset, stored in a TSV format, is preprocessed by cleaning text (removing non-alphabetic characters), tokenizing, removing stopwords, and applying stemming to create a corpus of cleaned reviews. Features are extracted using TF-IDF vectorization to emphasize important terms. Various classifiers, including Decision Tree, Logistic Regression (with L1/L2 regularization), and Random Forest, were evaluated and decided on Logistic Regression by evaluating the performance for classifying reviews as positive or negative.
